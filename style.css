@@ -545,10 +545,14 @@ h2 span {
     }
 
     /* HERO SPACING */
-    #hero {
-        padding-top: 10px;
-        min-height: unset; /* ← removes any large min-height pushing content down */
-    }
+ #hero {
+    padding-top: 10px;
+    min-height: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* ← centers all children including social icons */
+    text-align: center;
+}
 
     #hero p {
         margin-bottom: 5px;
@@ -559,18 +563,23 @@ h2 span {
         margin-bottom: 10px; /* ← small gap before icons */
     }
 
-    /* SOCIAL ICONS */
-    .social-icons {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
-        padding: 15px;
-        border-radius: 12px;
-        margin-top: 10px;    /* ← replace negative margin with a small positive one */
-        position: relative;  /* ← ensures normal flow positioning */
-    }
+/* SOCIAL ICONS */
+.social-icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 10px;
+    position: relative;
+    left: 0;              /* ← reset any left offset */
+    transform: none;      /* ← remove any transform shifting it */
+    margin-left: auto;    /* ← auto centering */
+    margin-right: auto;   /* ← auto centering */
+    box-sizing: border-box;
+}
 
     /* REMOVE SIDEBAR SHIFT */
     .main-content {
