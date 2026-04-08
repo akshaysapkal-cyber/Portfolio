@@ -536,3 +536,38 @@ h2 span {
     50% { opacity: 0; }
     100% { opacity: 1; }
 }
+/* ========================= */
+/* MOBILE FIX */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    .social-icons {
+        width: 100%;
+        margin: 20px auto;   /* 🔥 center it */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 15px;
+        padding: 15px;
+
+        border-radius: 12px;
+    }
+
+}
+@media (max-width: 768px) {
+
+    .main-content {
+        margin-left: 0;   /* 🔥 remove sidebar shift */
+    }
+
+}
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;   /* 🔥 prevents sideways scroll */
+    }
+
+}
