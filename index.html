@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay Sapkal | Cybersecurity Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="menu-toggle">
+    <i class="fas fa-bars"></i>
+</div>
+<div class="sidebar">
+
+    <div class="profile">
+        <img src="images/profile.png" alt="Profile">
+        <h2>Akshay Sapkal</h2>
+        <p>Aspiring Cybersecurity Analyst</p>
+    </div>
+
+    <nav>
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#courses">Courses</a>
+        <a href="#badges">Badges</a>
+        <div class="sidebar-icons">
+    <a href="#"><i class="fab fa-github"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <a href="mailto:yourmail@gmail.com"><i class="fas fa-envelope"></i></a>
+    <a href="tel:+919136233422"><i class="fas fa-phone"></i></a>
+</div>
+    </nav>
+
+</div>
+    <!-- HERO SECTION -->
+    <section id="hero">
+    <h1>Akshay Sapkal Portfolio</h1>
+    <h2>Cybersecurity Enthusiast</h2>
+        <p id="typing-text"></p>
+    
+
+    <!-- BUTTON -->
+    <a href="Akshay-Sapkal-Profile.pdf" class="btn" onclick="downloadCV()">Download CV</a>
+</a>
+</section>
+
+<div class="social-icons">
+    <a href="https://github.com/akshaysapkal-cyber" target="_blank">
+        <i class="fab fa-github"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/akshay-sapkal" target="_blank">
+        <i class="fab fa-linkedin"></i>
+    </a>
+
+    <a href="mailto:itsakshaysapkal@gmail.com">
+        <i class="fas fa-envelope"></i>
+    </a>
+
+    <a href="tel:9136233422">
+        <i class="fas fa-phone"></i>
+    </a>
+</div>
+
+    <!-- ABOUT SECTION (EMPTY FOR NOW) -->
+    <section id="about">
+    <h2><span>About</span> Me</h2>
+<p>
+Aspiring cybersecurity analyst transitioning from a professional background in retail management, bringing strong analytical thinking and real-time problem-solving skills. Hands-on experience in network traffic analysis using Wireshark and vulnerability assessment with tools like Nmap and Nessus, along with practical projects including DVWA VAPT and SIEM monitoring using Wazuh. Strong understanding of both offensive and defensive security practices. CEH Master certified with foundational knowledge from CompTIA Security+ and CompTIA A+, and passionate about identifying vulnerabilities, analyzing threats, and contributing to security operations.
+</p>
+</section>
+
+    <!-- SKILLS SECTION (EMPTY FOR NOW) -->
+<section id="skills">
+    <h2><span>Skills</span></h2>
+
+    <div class="skills-container">
+
+        <!-- LEFT COLUMN -->
+        <div class="skills-column">
+
+            <div class="skill">
+                <p>Security Monitoring (SIEM Basics)</p>
+                <div class="progress"><div class="progress-bar" style="width: 75%"></div></div>
+            </div>
+
+            <div class="skill">
+                <p>Log Analysis</p>
+                <div class="progress"><div class="progress-bar" style="width: 75%"></div></div>
+            </div>
+
+            <div class="skill">
+                <p>Network Traffic Analysis (Wireshark)</p>
+                <div class="progress"><div class="progress-bar" style="width: 85%"></div></div>
+            </div>
+
+            <div class="skill">
+                <p>Threat Detection & Analysis</p>
+                <div class="progress"><div class="progress-bar" style="width: 75%"></div></div>
+            </div>
+
+            <div class="skill">
+                <p>Incident Handling & Response</p>
+                <div class="progress"><div class="progress-bar" style="width: 70%"></div></div>
+            </div>
+
+        </div>
+
+        <!-- RIGHT COLUMN -->
+        <div class="skills-column">
+
+            <div class="skill">
+                <p>Vulnerability Assessment (Nessus)</p>
+                <div class="progress"><div class="progress-bar" style="width: 80%"></div></div>
+            </div>
+
+            <div class="skill">
+                <p>Reconnaissance & Scanning (Nmap)</p>
+                <div class="progress"><div class="progress-bar" style="width: 85%"></div></div>
+            </div>
+
+            <div class="skill">
+                <p>Penetration Testing Basics</p>
+                <div class="progress"><div class="progress-bar" style="width: 75%"></div></div>
+            </div>
+
+            <div class="skill">
+                <p>Web Application Security (OWASP Basics)</p>
+                <div class="progress"><div class="progress-bar" style="width: 70%"></div></div>
+            </div>
+
+            <div class="skill">
+                <p>Linux Fundamentals</p>
+                <div class="progress"><div class="progress-bar" style="width: 80%"></div></div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+    <!-- PROJECTS SECTION (EMPTY FOR NOW) -->
+    <section id="projects">
+    <h2><span>Projects</span></h2>
+
+    <div class="project">
+        <h3>Vulnerability Assessment using Nessus</h3>
+        <ul>
+            <li>Performed a vulnerability assessment on Metasploitable 2 using Nessus Essentials on Kali Linux, simulating an external attacker’s perspective.</li>
+            <li>Identified critical vulnerabilities including UnrealIRCd backdoor and Samba misconfiguration with remediation steps.</li>
+            <li>Gained hands-on experience in vulnerability scanning, risk categorization, and security reporting.</li>
+        </ul>
+        <a href="https://github.com/akshaysapkal-cyber/Vulnerability-Assessment-Nessus" target="_blank">View Project</a>
+    </div>
+
+    <div class="project">
+        <h3>Wazuh SIEM Lab — Threat Detection</h3>
+        <ul>
+            <li>Built a SOC lab using Wazuh SIEM to monitor Windows endpoint logs in real time.</li>
+            <li>Detected brute force attacks, Nmap scanning, and reverse shell attempts using event correlation.</li>
+            <li>Gained practical experience in log analysis, alert triage, and threat detection workflows.</li>
+        </ul>
+        <a href="https://github.com/akshaysapkal-cyber/Wazuh-SIEM-Lab-Detection" target="_blank">View Project</a>
+    </div>
+
+    <div class="project">
+        <h3>Wireshark HTTP Credential Analysis</h3>
+        <ul>
+            <li>Captured HTTP login traffic using Wireshark in a controlled Kali Linux lab.</li>
+            <li>Analyzed HTTP POST requests to show plaintext credential transmission.</li>
+            <li>Demonstrated risks of HTTP and importance of HTTPS encryption.</li>
+        </ul>
+        <a href="https://github.com/akshaysapkal-cyber/Wireshark-http-credential-analysis" target="_blank">View Project</a>
+    </div>
+
+    <div class="project">
+        <h3>DVWA VAPT Project</h3>
+        <ul>
+            <li>Performed VAPT on DVWA to identify and exploit common web vulnerabilities.</li>
+            <li>Demonstrated SQL Injection and Cross-Site Scripting (XSS) attacks.</li>
+            <li>Created structured reports with findings, exploitation proof, and remediation.</li>
+        </ul>
+        <a href="https://github.com/akshaysapkal-cyber/DVWA-VAPT-Project" target="_blank">View Project</a>
+    </div>
+
+</section>
+    <!-- JS LINK -->
+    <script src="script.js"></script>
+
+<section id="experience">
+    <h2><span>Experience</span></h2>
+
+    <div class="exp-container">
+
+        <div class="exp-card">
+           <h3>Pantaloons — Department Manager</h3>
+<span class="exp-date">2024 – 2025 | Mumbai</span>
+
+<ul>
+    <li>Oversaw day-to-day operations in a dynamic environment, ensuring efficiency, process consistency, and service quality.</li>
+
+    <li>Analyzed real-time situations and resolved operational issues quickly, maintaining smooth workflow under pressure.</li>
+
+    <li>Led and coordinated team activities, focusing on structured execution, accountability, and continuous performance improvement.</li>
+</ul>
+<h3 style="margin-top:20px;">Pantaloons — Fashion Assistant</h3>
+<span class="exp-date">2021 – 2024 | Mumbai</span>
+
+<ul>
+    <li>Interacted with customers to understand requirements and deliver efficient, solution-oriented assistance.</li>
+
+    <li>Maintained organized and optimized floor operations, ensuring systematic product placement and accessibility.</li>
+
+    <li>Collaborated within the team to handle day-to-day challenges, contributing to consistent service delivery and operational stability.</li>
+</ul>
+        </div>
+
+    </div>
+</section>
+
+<section id="certifications">
+    <h2><span>Licenses</span> & Certifications</h2>
+
+    <div class="cert-container">
+
+        <!-- CEH THEORY -->
+        <div class="cert-card">
+            <div class="cert-img">
+                <img src="images/ceh-badge.png" alt="CEH Badge">
+            </div>
+
+            <h3>CEH (Theory)</h3>
+
+            <p class="cert-desc">Certified Ethical Hacker (Theory)</p>
+
+            <div class="cert-details">
+                <span>Score: 94.4%</span>
+                <span class="cred-id">ID: ECC5382917406</span>
+            </div>
+
+            <a href="https://aspen.eccouncil.org/Verify" target="_blank" class="cert-btn">
+                Verify Credential
+            </a>
+        </div>
+
+        <!-- CEH PRACTICAL -->
+        <div class="cert-card">
+            <div class="cert-img">
+                <img src="images/ceh-practical-badge.png" alt="CEH Practical Badge">
+            </div>
+
+            <h3>CEH (Practical)</h3>
+
+            <p class="cert-desc">Practical Ethical Hacking Exam</p>
+
+            <div class="cert-details">
+                <span>Score: 90%</span>
+                <span class="cred-id">ID: ECC4258710693</span>
+            </div>
+
+            <a href="https://aspen.eccouncil.org/Verify" target="_blank" class="cert-btn">
+                Verify Credential
+            </a>
+        </div>
+
+        <!-- CEH MASTER -->
+        <div class="cert-card">
+            <div class="cert-img">
+                <img src="images/ceh-master-badge.png" alt="CEH Master Badge">
+            </div>
+
+            <h3>CEH Master</h3>
+
+            <p class="cert-desc">Certified Ethical Hacker Master</p>
+
+            <div class="cert-details">
+                <span>Elite Certification</span>
+                <span class="cred-id">ID: ECC3902468751</span>
+            </div>
+
+            <a href="https://aspen.eccouncil.org/Verify" target="_blank" class="cert-btn">
+                Verify Credential
+            </a>
+        </div>
+
+    </div>
+</section>
+
+</section>
+
+<section id="courses">
+    <h2><span>Courses</span> Completed</h2>
+
+    <div class="course-container">
+
+        <!-- Security+ -->
+        <div class="course-card">
+            <div class="course-img">
+                <img src="images/security-plus.jpg" alt="Security+">
+            </div>
+            <h3>CompTIA Security+</h3>
+            <p>Core cybersecurity concepts, threat management, and security operations.</p>
+        </div>
+
+        <!-- TryHackMe Pre Security -->
+        <div class="course-card">
+            <div class="course-img">
+                <img src="images/thmpre.jpg" alt="TryHackMe">
+            </div>
+            <h3>TryHackMe – Pre Security</h3>
+            <p>Hands-on introduction to cybersecurity basics and labs.</p>
+        </div>
+
+        <!-- TryHackMe Cyber 101 -->
+        <div class="course-card">
+            <div class="course-img">
+                <img src="images/thmcyber.jpg" alt="TryHackMe">
+            </div>
+            <h3>TryHackMe – Cyber 101</h3>
+            <p>Practical exposure to real-world cyber attack and defense scenarios.</p>
+        </div>
+ <!-- A+ -->
+        <div class="course-card">
+            <div class="course-img">
+                <img src="images/a-plus.jpeg" alt="A+">
+            </div>
+            <h3>CompTIA A+</h3>
+            <p>Fundamentals of hardware, networking, and troubleshooting.</p>
+        </div>
+    </div>
+</section>
+<section id="badges">
+    <h2><span>Achievements</span> & Badges</h2>
+
+    <div class="badge-container">
+
+        <!-- CYBER READY -->
+        <div class="badge-card">
+            <img src="images/cybeready.png" alt="Cyber Ready">
+            <p>Cyber Ready</p>
+        </div>
+
+        <!-- OSINT -->
+        <div class="badge-card">
+            <img src="images/ohsint.png" alt="OSINT">
+            <p>OSINT</p>
+        </div>
+
+        <!-- OWASP -->
+        <div class="badge-card">
+            <img src="images/owasp.png" alt="OWASP">
+            <p>OWASP Top 10</p>
+        </div>
+
+        <!-- SHIELD -->
+        <div class="badge-card">
+            <img src="images/shield.png" alt="Security Shield">
+            <p>Defense Skills</p>
+        </div>
+
+        <!-- STREAK -->
+        <div class="badge-card">
+            <img src="images/streak.png" alt="Streak">
+            <p>30 Days Learning Streak</p>
+        </div>
+
+    </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
