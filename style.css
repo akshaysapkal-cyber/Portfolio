@@ -559,20 +559,20 @@ h2 span {
         margin-top: 15px;
     }
 
-    /* SOCIAL ICONS */
-    .social-icons {
-        width: 100%;
-        margin: 20px auto;
+    /* SOCIAL ICONS */.social-icons {
+    width: 100%;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-        gap: 15px;
-        padding: 15px;
+    gap: 15px;
+    padding: 15px;
 
-        border-radius: 12px;
-    }
+    border-radius: 12px;
+
+    margin-top: -10px;   /* 🔥 pull it UP */
+}
 
     /* REMOVE SIDEBAR SHIFT */
     .main-content {
