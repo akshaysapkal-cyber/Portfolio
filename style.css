@@ -539,9 +539,7 @@ h2 span {
 /* ========================= */
 /* MOBILE FIX */
 /* ========================= */
-
 @media (max-width: 768px) {
-
     body {
         overflow-x: hidden;
     }
@@ -549,6 +547,7 @@ h2 span {
     /* HERO SPACING */
     #hero {
         padding-top: 10px;
+        min-height: unset; /* ← removes any large min-height pushing content down */
     }
 
     #hero p {
@@ -557,27 +556,24 @@ h2 span {
 
     .btn {
         margin-top: 5px;
+        margin-bottom: 10px; /* ← small gap before icons */
     }
 
     /* SOCIAL ICONS */
     .social-icons {
-    width: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    gap: 15px;
-    padding: 15px;
-
-    border-radius: 12px;
-
-    margin-top: -100px;   /* 🔥 pull it UP */
-}
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding: 15px;
+        border-radius: 12px;
+        margin-top: 10px;    /* ← replace negative margin with a small positive one */
+        position: relative;  /* ← ensures normal flow positioning */
+    }
 
     /* REMOVE SIDEBAR SHIFT */
     .main-content {
         margin-left: 0;
     }
-
 }
