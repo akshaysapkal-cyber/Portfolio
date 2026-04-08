@@ -542,9 +542,27 @@ h2 span {
 
 @media (max-width: 768px) {
 
+    body {
+        overflow-x: hidden;
+    }
+
+    /* HERO SPACING */
+    #hero {
+        padding-top: 80px;
+    }
+
+    #hero p {
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        margin-top: 15px;
+    }
+
+    /* SOCIAL ICONS */
     .social-icons {
         width: 100%;
-        margin: 20px auto;   /* 🔥 center it */
+        margin: 20px auto;
 
         display: flex;
         justify-content: center;
@@ -556,37 +574,9 @@ h2 span {
         border-radius: 12px;
     }
 
-}
-@media (max-width: 768px) {
-    /* 🔥 REDUCE HERO SPACING */
-#hero {
-    padding-top: 80px;   /* reduce top space */
-}
-
-/* 🔥 REDUCE GAP BETWEEN TEXT & BUTTON */
-#hero p {
-    margin-bottom: 10px;
-}
-
-/* 🔥 BUTTON SPACING */
-.btn {
-    margin-top: 15px;
-}
-
-/* 🔥 SOCIAL ICONS CLOSE TO BUTTON */
-.social-icons {
-    margin-top: 20px;   /* 🔥 main fix (reduce gap) */
-}
-
+    /* REMOVE SIDEBAR SHIFT */
     .main-content {
-        margin-left: 0;   /* 🔥 remove sidebar shift */
-    }
-
-}
-@media (max-width: 768px) {
-
-    body {
-        overflow-x: hidden;   /* 🔥 prevents sideways scroll */
+        margin-left: 0;
     }
 
 }
