@@ -558,6 +558,25 @@ h2 span {
 
 }
 @media (max-width: 768px) {
+    /* 🔥 REDUCE HERO SPACING */
+#hero {
+    padding-top: 80px;   /* reduce top space */
+}
+
+/* 🔥 REDUCE GAP BETWEEN TEXT & BUTTON */
+#hero p {
+    margin-bottom: 10px;
+}
+
+/* 🔥 BUTTON SPACING */
+.btn {
+    margin-top: 15px;
+}
+
+/* 🔥 SOCIAL ICONS CLOSE TO BUTTON */
+.social-icons {
+    margin-top: 20px;   /* 🔥 main fix (reduce gap) */
+}
 
     .main-content {
         margin-left: 0;   /* 🔥 remove sidebar shift */
