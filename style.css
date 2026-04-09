@@ -586,3 +586,7 @@ h2 span {
         margin-left: 0;
     }
 }
+.sidebar {
+    position: fixed;
+    z-index: 1000;
+}
